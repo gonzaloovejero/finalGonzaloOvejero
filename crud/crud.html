@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="crud.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- NAVIGATION -->
+        <div class="nav">
+            <nav>
+                <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/consultas/consultas.html">Consultas</a></li>
+                <li><a href="crud.html">CRUD</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            </nav>
+        </div>
+
+    <!-- CONSULTAS -->
+
+        <form class="consultas">
+            <h5>Crear Alumno</h5>
+            <ul class="list-cons">
+            <li><p>Leg. Alumno *</p><input type="number" placeholder="Legajo" id="legajo"></li>
+            <li><p>Apyn. Alumno *</p><input type="text" placeholder="Apyn" id="apyn"></li>
+            <li><p>Dom. Alumno *</p><input type="text" placeholder="Domicilio" id="domicilio"></li>
+            <li><p>Cod. Postal *</p><select name="" id="codigopostal">
+                <option value="Batan" id="option">Batan</option>
+                <option value="Mar del Plata">Mar del Plata</option>
+                <option value="Bahia Blanca">Bahia Blanca</option>
+            </select>
+            </li>
+            
+            <li><p>Fecha nac. *</p><input type="date" placeholder="Fecha de Nacimiento" id="nacimiento"></li>
+            <li><p>E-mail *</p><input type="email" placeholder="E-mail" id="email"></li>
+            <li><p>Grupo sang. *</p><input type="text" placeholder="Grupo Sanguineo" id="sanguineo"></li>
+            <li><p>Tel. Fijo *</p><input type="number" placeholder="Telefono Fijo" id="fijo"></li>
+            <li><p>Tel. Movil *</p><input type="number" placeholder="Telefono Movil" id="celular"></li>
+            <li><p>DNI *</p><input type="number" placeholder="DNI" id="dni"></li>
+            <input type="submit" id="enviar" value="Crear">   
+        </ul>
+            
+        </div>
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Realizado por: Ovejero Gonzalo</p>
+    </footer>
+
+
+
+        <script src="crud.js"></script>
+   
+</body>
+</html>
