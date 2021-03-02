@@ -35,7 +35,33 @@
         
     </div>
     <div class="borrar">
-    <div class="resultado"></div>
+    <div class="resultado">
+
+        <form class="consultas">
+            <h5>Crear Alumno</h5>
+            <ul class="list-cons">
+            <li><p>Leg. Alumno *</p><input type="number" placeholder="Legajo" id="legajo"></li>
+            <li><p>Apyn. Alumno *</p><input type="text" placeholder="Apyn" id="apyn"></li>
+            <li><p>Dom. Alumno *</p><input type="text" placeholder="Domicilio" id="domicilio"></li>
+            <li><p>Cod. Postal *</p><select name="" id="codigopostal">
+                <option value="Batan" id="option">Batan</option>
+                <option value="Mar del Plata">Mar del Plata</option>
+                <option value="Bahia Blanca">Bahia Blanca</option>
+            </select>
+            </li>
+            
+            <li><p>Fecha nac. *</p><input type="date" placeholder="Fecha de Nacimiento" id="nacimiento"></li>
+            <li><p>E-mail *</p><input type="email" placeholder="E-mail" id="email"></li>
+            <li><p>Grupo sang. *</p><input type="text" placeholder="Grupo Sanguineo" id="sanguineo"></li>
+            <li><p>Tel. Fijo *</p><input type="number" placeholder="Telefono Fijo" id="fijo"></li>
+            <li><p>Tel. Movil *</p><input type="number" placeholder="Telefono Movil" id="celular"></li>
+            <li><p>DNI *</p><input type="number" placeholder="DNI" id="dni"></li>
+            <input type="submit" id="enviar" value="Crear">   
+        </ul>
+            
+    </form>
+
+    </div>
     <input type="submit" value="Borrar" id="borrar">
 </div>
 </div>
